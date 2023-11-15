@@ -156,7 +156,7 @@ def main():
     balance = deposit()
 
     while True:
-        print(f"Current balance is: ${balance:.2f}"\n)
+        print(f"Current balance is: ${balance:.2f}\n")
         answer = input("Press enter to play (q to quit).")
         if answer == "q":
             break
